@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "title": "Home",
+        "Description": "Home is navigation link for 'home' page"
+    },
+    {
+        "id": 2,
+        "title": "About",
+        "Description": "About is navigation link for 'about' page"
+    },
+    {
+        "id": 3,
+        "title": "Contact",
+        "Description": "Contact is navigation link for 'Contact' page"
+    },
+    {
+        "id": 4,
+        "title": "Offer's",
+        "Description": "Offer's is navigation link for 'Offer's' page" 
+    },
+    {
+        "id": 5,
+        "title": "Product's",
+        "Description": "Product's is navigation link for 'Product's' page" 
+    },
+    {
+        "id": 6,
+        "title": "Latest Launch",
+        "Description": "Latest Launch is navigation link for 'Latest Launch' page"     
+    },
+    {
+        "id": 7,
+        "title": "Popular Product's",
+        "Description": "Popular Product's Launch is navigation link for 'Popular Product's' page"    
+    },
+    {
+        "id": 8,
+        "title": "Customer's Review",
+        "Description": "Customer's Review Launch is navigation link for 'Customer's Review' page"     
+    },
+    {
+        "id": 9,
+        "title": "Brands We Provide",
+        "Description": "Brands We Provide Launch is navigation link for 'Brands We Provide' page"     
+    }
+]
