@@ -1,0 +1,163 @@
+// Root colors
+:root {
+    --primary-white-background: #F5F5F7;
+    --primary-black-background: #000000;
+
+    --primary-white-Text-color: #D0D0D0;
+    --primary-black-Text-color: #1D1D1F;
+
+    --primary-good-alert-color: rgb(30, 215, 96);
+    --primary-error-alert-color: rgb(255, 0, 0);
+
+    --primary-white-button-background: rgba(208, 208, 208, 0.55);
+}
+
+.review-container {
+    max-width: 600px;
+    width: 100%;
+    height: 100%;
+    margin: 50px 0 10px 0;
+    // background-color: black;
+
+    .review-texthead {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        h1 {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 1.875rem;
+        }
+    }
+
+    .review-cards {
+        width: 100%;
+        height: 100%;
+        padding: 16px;
+        display: flex;
+        justify-content: center;
+        background: rgba(208, 208, 208, 0.8);
+        backdrop-filter: blur(4px);
+        margin-top: 25px;
+        position: relative;
+
+        .card {
+            max-width: 283px;
+            width: 100%;
+            height: 365px;
+            background: #FFFFFF;
+            box-shadow: inset 4.08px 4.08px 10.88px 1px rgba(0, 0, 0, 0.2);
+            border-radius: 11px;
+            position: relative;
+
+            .date-of-review {
+                position: absolute;
+                right: 16px;
+                top: 20px;
+
+                p {
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 9px;
+                    color: rgba(29, 29, 31, 0.65);
+                }
+            }
+
+            .profile-info {
+                display: flex;
+                align-items: center;
+                margin: 39px 0 0 22px;
+
+                .profile-picture {
+                    width: 40px;
+                    height: 41px;
+                    border-radius: 50px;
+                    overflow: hidden;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                }
+
+                .profile-name {
+                    margin-left: 15px;
+
+                    h2 {
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 20px;
+                        color: var(--primary-black-Text-color);
+                    }
+
+                    .profie-profesion {
+                        h3 {
+                            max-width: 196px;
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 12px;
+                            color: rgba(29, 29, 31, 0.76);
+                        }
+                    }
+                }
+            }
+
+            .rating-stars {
+                margin: 9px 0 0 22px;
+                max-width: 221px;
+                width: 100%;
+            }
+
+            .review-text {
+                max-width: 215px;
+                height: 181px;
+                margin-left: 35px;
+                padding-right: 15px;
+                margin-top: 16px;
+                line-height: 23px;
+                overflow-y: scroll;
+
+                p {
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+
+    .next-previous {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+
+        .next {
+            width: 38px;
+            height: 36px;
+            background: rgba(208, 208, 208, 0.8);
+            backdrop-filter: blur(5px);
+            border-radius: 40px;
+            margin-right: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+
+        }
+
+        .previous {
+            width: 38px;
+            height: 36px;
+            background: rgba(208, 208, 208, 0.8);
+            backdrop-filter: blur(5px);
+            border-radius: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+        }
+    }
+}
