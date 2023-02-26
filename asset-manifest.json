@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Pinocchio-Clothing-Store-/static/css/main.d0fd4ca8.css",
-    "main.js": "/Pinocchio-Clothing-Store-/static/js/main.19d3941d.js",
+    "main.js": "/Pinocchio-Clothing-Store-/static/js/main.ec085380.js",
     "static/css/118.f7ee1873.chunk.css": "/Pinocchio-Clothing-Store-/static/css/118.f7ee1873.chunk.css",
     "static/js/118.a39d4f12.chunk.js": "/Pinocchio-Clothing-Store-/static/js/118.a39d4f12.chunk.js",
     "static/js/807.6d0b5ec9.chunk.js": "/Pinocchio-Clothing-Store-/static/js/807.6d0b5ec9.chunk.js",
@@ -22,13 +22,13 @@
     "static/media/next-icon.svg": "/Pinocchio-Clothing-Store-/static/media/next-icon.f930c15f97bcbe6070f7d448cfe705f3.svg",
     "static/media/previous-icon.svg": "/Pinocchio-Clothing-Store-/static/media/previous-icon.7c28a01112b367f5d54d49d5f171080a.svg",
     "main.d0fd4ca8.css.map": "/Pinocchio-Clothing-Store-/static/css/main.d0fd4ca8.css.map",
-    "main.19d3941d.js.map": "/Pinocchio-Clothing-Store-/static/js/main.19d3941d.js.map",
+    "main.ec085380.js.map": "/Pinocchio-Clothing-Store-/static/js/main.ec085380.js.map",
     "118.f7ee1873.chunk.css.map": "/Pinocchio-Clothing-Store-/static/css/118.f7ee1873.chunk.css.map",
     "118.a39d4f12.chunk.js.map": "/Pinocchio-Clothing-Store-/static/js/118.a39d4f12.chunk.js.map",
     "807.6d0b5ec9.chunk.js.map": "/Pinocchio-Clothing-Store-/static/js/807.6d0b5ec9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d0fd4ca8.css",
-    "static/js/main.19d3941d.js"
+    "static/js/main.ec085380.js"
   ]
 }
