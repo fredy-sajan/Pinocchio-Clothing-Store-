@@ -1,16 +1,34 @@
 {
   "files": {
-    "main.css": "/Pinocchio-Clothing-Store-/static/css/main.736f3055.css",
-    "main.js": "/Pinocchio-Clothing-Store-/static/js/main.c982caf8.js",
-    "static/css/353.31d6cfe0.chunk.css": "/Pinocchio-Clothing-Store-/static/css/353.31d6cfe0.chunk.css",
-    "static/js/353.a3a95614.chunk.js": "/Pinocchio-Clothing-Store-/static/js/353.a3a95614.chunk.js",
+    "main.css": "/Pinocchio-Clothing-Store-/static/css/main.d0fd4ca8.css",
+    "main.js": "/Pinocchio-Clothing-Store-/static/js/main.19d3941d.js",
+    "static/css/118.f7ee1873.chunk.css": "/Pinocchio-Clothing-Store-/static/css/118.f7ee1873.chunk.css",
+    "static/js/118.a39d4f12.chunk.js": "/Pinocchio-Clothing-Store-/static/js/118.a39d4f12.chunk.js",
+    "static/js/807.6d0b5ec9.chunk.js": "/Pinocchio-Clothing-Store-/static/js/807.6d0b5ec9.chunk.js",
+    "static/media/Vector-six.svg": "/Pinocchio-Clothing-Store-/static/media/Vector-six.6111d908abcf59eafdc2dfc980f421b8.svg",
+    "static/media/men.jpg": "/Pinocchio-Clothing-Store-/static/media/men.053f51d70917fdffbcec.jpg",
+    "static/media/women.jpg": "/Pinocchio-Clothing-Store-/static/media/women.a556e2ed82547e3bdb2c.jpg",
+    "static/media/firstbrands.svg": "/Pinocchio-Clothing-Store-/static/media/firstbrands.42772ce7fb764ba2211f3c2cd686224b.svg",
+    "static/media/secondbrands.svg": "/Pinocchio-Clothing-Store-/static/media/secondbrands.94a14979fe701ef7be49974020ceb891.svg",
+    "static/media/thirdbrands.svg": "/Pinocchio-Clothing-Store-/static/media/thirdbrands.5e3df74bf854005e0a9959d505ed1c5f.svg",
+    "static/media/stars-one.svg": "/Pinocchio-Clothing-Store-/static/media/stars-one.5b4bb68017c101e0a1abce03922ee524.svg",
+    "static/media/under-design.svg": "/Pinocchio-Clothing-Store-/static/media/under-design.3902e1c392366e473c3fb1f65e683d37.svg",
+    "static/media/footer-box-line-design.svg": "/Pinocchio-Clothing-Store-/static/media/footer-box-line-design.a0759504dfe6d5ad3fdcdaeabf6c46f8.svg",
+    "static/media/footer-all-vector.svg": "/Pinocchio-Clothing-Store-/static/media/footer-all-vector.4f9c3a859578bf8444b4e8550adbcce3.svg",
+    "static/media/Vector-seven.svg": "/Pinocchio-Clothing-Store-/static/media/Vector-seven.03560058442260372d84db9131649b16.svg",
     "index.html": "/Pinocchio-Clothing-Store-/index.html",
-    "main.736f3055.css.map": "/Pinocchio-Clothing-Store-/static/css/main.736f3055.css.map",
-    "main.c982caf8.js.map": "/Pinocchio-Clothing-Store-/static/js/main.c982caf8.js.map",
-    "353.a3a95614.chunk.js.map": "/Pinocchio-Clothing-Store-/static/js/353.a3a95614.chunk.js.map"
+    "static/media/Vector-five.svg": "/Pinocchio-Clothing-Store-/static/media/Vector-five.4c60e7e7c6efa337824105a4befd9b41.svg",
+    "static/media/overflow-fix.svg": "/Pinocchio-Clothing-Store-/static/media/overflow-fix.304292d1b8643fa3e0fccac59da33478.svg",
+    "static/media/next-icon.svg": "/Pinocchio-Clothing-Store-/static/media/next-icon.f930c15f97bcbe6070f7d448cfe705f3.svg",
+    "static/media/previous-icon.svg": "/Pinocchio-Clothing-Store-/static/media/previous-icon.7c28a01112b367f5d54d49d5f171080a.svg",
+    "main.d0fd4ca8.css.map": "/Pinocchio-Clothing-Store-/static/css/main.d0fd4ca8.css.map",
+    "main.19d3941d.js.map": "/Pinocchio-Clothing-Store-/static/js/main.19d3941d.js.map",
+    "118.f7ee1873.chunk.css.map": "/Pinocchio-Clothing-Store-/static/css/118.f7ee1873.chunk.css.map",
+    "118.a39d4f12.chunk.js.map": "/Pinocchio-Clothing-Store-/static/js/118.a39d4f12.chunk.js.map",
+    "807.6d0b5ec9.chunk.js.map": "/Pinocchio-Clothing-Store-/static/js/807.6d0b5ec9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.736f3055.css",
-    "static/js/main.c982caf8.js"
+    "static/css/main.d0fd4ca8.css",
+    "static/js/main.19d3941d.js"
   ]
 }
