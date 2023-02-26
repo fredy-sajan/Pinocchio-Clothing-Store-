@@ -8,26 +8,24 @@
 
 /* // Root colors */
 :root {
-    --primary-white-background: #F5F5F7;
-    --primary-black-background: #000000;
+  --primary-white-background: #F5F5F7;
+  --primary-black-background: #000000;
 
-    --primary-white-Text-color: #D0D0D0;
-    --primary-black-Text-color: #1D1D1F;
+  --primary-white-Text-color: #D0D0D0;
+  --primary-black-Text-color: #1D1D1F;
 
-    --primary-good-alert-color: rgb(30, 215, 96);
-    --primary-error-alert-color: rgb(255, 0, 0);
+  --primary-good-alert-color: rgb(30, 215, 96);
+  --primary-error-alert-color: rgb(255, 0, 0);
 
-    --primary-white-button-background: rgba(208, 208, 208, 0.55);
-    ;
-
+  --primary-white-button-background: rgba(208, 208, 208, 0.55);
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
-body{
-  background-color: var(--primary-white-background)
+body {
+  background-color: var(--primary-white-background);
 }
 
 /* Font Family's */

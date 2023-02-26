@@ -1,3 +1,4 @@
+import Footer from 'features/ui/footer';
 import React from 'react'
 
 // Component import
@@ -15,6 +16,7 @@ function App() {
     <div className="App">
       <NavBar/>
       <RouteFiles />
+      <Footer />
     </div>
   );
 }

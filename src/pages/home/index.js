@@ -3,6 +3,9 @@
 import React from 'react'
 import WelcomeComponent from 'features/ui/components/home-components/welcome-section'
 import NewArrivalsComponent from 'features/ui/components/home-components/new-arrivals-section'
+import BrandsInside from 'features/ui/components/home-components/brand-list-component'
+import ReviewComponent from 'features/ui/components/home-components/review-component'
+import PopularProductsComponent from 'features/ui/components/home-components/popular-product-component'
 
 
 function Home() {
@@ -10,6 +13,9 @@ function Home() {
     <>
         <WelcomeComponent />
         <NewArrivalsComponent />
+        <BrandsInside />
+        <ReviewComponent />
+        <PopularProductsComponent />
     </>
   )
 }
