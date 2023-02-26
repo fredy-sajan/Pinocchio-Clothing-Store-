@@ -11,7 +11,7 @@ function RouteFiles() {
     <Router>
       <Suspense fallback={<div>Loading...</div>}>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/Pinocchio-Clothing-Store-/" element={<Home />} />
         </Routes>
       </Suspense>
     </Router>
