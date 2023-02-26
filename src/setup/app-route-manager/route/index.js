@@ -1,12 +1,22 @@
 // import Hooks
-import React from 'react'
+import React, { Suspense, lazy } from 'react'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
-function Route() {
+// Import files to set route
+const Home = lazy(()=> import('../../../pages/home/index'))
+
+function RouteFiles() {
   return (
     <>
-
+    <Router>
+      <Suspense fallback={<div>Loading...</div>}>
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </Suspense>
+    </Router>
     </>
   )
 }
 
-export default Route
+export default RouteFiles

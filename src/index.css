@@ -1,33 +1,60 @@
-*{
+* {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; 
-  font-family:   "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  box-sizing: border-box;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   font-size: 16px;
 }
+
+/* // Root colors */
+:root {
+    --primary-white-background: #F5F5F7;
+    --primary-black-background: #000000;
+
+    --primary-white-Text-color: #D0D0D0;
+    --primary-black-Text-color: #1D1D1F;
+
+    --primary-good-alert-color: rgb(30, 215, 96);
+    --primary-error-alert-color: rgb(255, 0, 0);
+
+    --primary-white-button-background: rgba(208, 208, 208, 0.55);
+    ;
+
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: var(--primary-white-background)
+}
+
+/* Font Family's */
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
 
 /*  Media Quires */
 
 @media screen and (max-width: 500px) {
-  *{
-      font-size: 13px;
+  * {
+    font-size: 13px;
   }
 }
 
 @media screen and (max-width: 300px) {
-  *{
-      font-size: 11px;
+  * {
+    font-size: 11px;
   }
 }
 
 @media screen and (max-width: 264px) {
-  *{
-      font-size: 9px;
+  * {
+    font-size: 9px;
   }
 }
 
 @media screen and (max-width: 234px) {
-  *{
-      font-size: 7px;
+  * {
+    font-size: 7px;
   }
 }

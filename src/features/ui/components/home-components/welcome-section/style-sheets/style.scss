@@ -1,0 +1,197 @@
+// Root colors
+
+:root {
+    --primary-white-background: #F5F5F7;
+    --primary-black-background: #000000;
+
+    --primary-white-Text-color: #D0D0D0;
+    --primary-black-Text-color: #1D1D1F;
+
+    --primary-good-alert-color: rgb(30, 215, 96);
+    --primary-error-alert-color: rgb(255, 0, 0);
+    ;
+
+}
+
+// Home container display only welcome section
+.home-container {
+    height: 1000px;
+    background-color: var(--primary-white-background);
+    overflow: hidden;
+
+    // Welcome section div
+    .welcome-home-section {
+        position: relative;
+        max-width: 600px;
+
+        // Welcome section vector's design start
+        .background-vectors {
+            .vector-one {
+                position: absolute;
+                top: -51px;
+                left: 0;
+                z-index: 9;
+            }
+
+            .vector-two {
+                position: absolute;
+                right: 0;
+                top: 0;
+                z-index: 10;
+            }
+
+            .vector-three {
+                position: absolute;
+                top: -51px;
+                z-index: 11;
+                overflow: hidden;
+            }
+
+            .vector-under-design {
+                position: absolute;
+                top: 388px;
+                z-index: 14;
+            }
+
+            .overflow-fix {
+                position: absolute;
+                top: 395px;
+                z-index: 12;
+            }
+        }
+
+        // Welcome section vector's design end
+
+
+        // Text Content's div start
+        .text-contents {
+            position: absolute;
+            z-index: 14;
+            width: 100%;
+            height: auto;
+            padding: 10px;
+            margin: 110px auto;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            // background-color: red;
+
+            .welcome-head-text {
+                text-align: center;
+
+                h1 {
+                    font-family: 'Inspiration';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 3.125rem;
+                    color: var(--primary-white-Text-color);
+                }
+            }
+
+            .company-name {
+                text-align: center;
+
+                h2 {
+                    color: var(--primary-white-Text-color);
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 1.25rem;
+                    margin-top: 25px;
+                }
+            }
+
+            .company-locaton {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 18px 11px 0 0;
+
+                .location-icon {
+                    margin: -5px 5px 0;
+                }
+
+                .location-text {
+                    margin-right: 5px;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 15px;
+                    color: var(--primary-white-Text-color);
+                }
+
+                .shop-open-close-status {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    .open-close-status-icon{
+                        color: var(--primary-good-alert-color);
+                    }
+
+                    span {
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 11px;
+                        color: var(--primary-good-alert-color);
+                        margin-right: 3px;
+                    }
+                }
+            }
+
+            .offers-contact-btn {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: var(--primary-white-Text-color);
+                margin-top: 32px;
+
+                .offers-btn {
+                    width: 119px;
+                    height: 33px;
+                    background: rgba(29, 29, 31, 0.8);
+                    backdrop-filter: blur(2px);
+                    border-radius: 10px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-right: 14px;
+                }
+
+                .contact-btn {
+                    width: 119px;
+                    height: 33px;
+                    background: rgba(29, 29, 31, 0.8);
+                    backdrop-filter: blur(2px);
+                    border-radius: 10px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+        }
+
+        // Text Content's div end
+
+
+    }
+}
+
+
+// Media Queris start
+
+// @media only screen and (max-width: 500px) {
+//     .home-container {
+//         .welcome-home-section {
+//             .text-contents {
+//                 .company-locaton {
+//                     .shop-open-close-status {
+
+//                         // Responsive added for location section status of shop ( opened/closed )
+//                         span {
+                   
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }

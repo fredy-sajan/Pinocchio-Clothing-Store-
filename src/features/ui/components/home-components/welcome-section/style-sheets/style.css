@@ -1,0 +1,138 @@
+:root {
+  --primary-white-background: #F5F5F7;
+  --primary-black-background: #000000;
+  --primary-white-Text-color: #D0D0D0;
+  --primary-black-Text-color: #1D1D1F;
+  --primary-good-alert-color: rgb(30, 215, 96);
+  --primary-error-alert-color: rgb(255, 0, 0);
+}
+
+.home-container {
+  height: 1000px;
+  background-color: var(--primary-white-background);
+  overflow: hidden;
+}
+.home-container .welcome-home-section {
+  position: relative;
+  max-width: 600px;
+}
+.home-container .welcome-home-section .background-vectors .vector-one {
+  position: absolute;
+  top: -51px;
+  left: 0;
+  z-index: 9;
+}
+.home-container .welcome-home-section .background-vectors .vector-two {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 10;
+}
+.home-container .welcome-home-section .background-vectors .vector-three {
+  position: absolute;
+  top: -51px;
+  z-index: 11;
+  overflow: hidden;
+}
+.home-container .welcome-home-section .background-vectors .vector-under-design {
+  position: absolute;
+  top: 388px;
+  z-index: 14;
+}
+.home-container .welcome-home-section .background-vectors .overflow-fix {
+  position: absolute;
+  top: 395px;
+  z-index: 12;
+}
+.home-container .welcome-home-section .text-contents {
+  position: absolute;
+  z-index: 14;
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  margin: 110px auto;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.home-container .welcome-home-section .text-contents .welcome-head-text {
+  text-align: center;
+}
+.home-container .welcome-home-section .text-contents .welcome-head-text h1 {
+  font-family: "Inspiration";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3.125rem;
+  color: var(--primary-white-Text-color);
+}
+.home-container .welcome-home-section .text-contents .company-name {
+  text-align: center;
+}
+.home-container .welcome-home-section .text-contents .company-name h2 {
+  color: var(--primary-white-Text-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.25rem;
+  margin-top: 25px;
+}
+.home-container .welcome-home-section .text-contents .company-locaton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 18px 11px 0 0;
+}
+.home-container .welcome-home-section .text-contents .company-locaton .location-icon {
+  margin: -5px 5px 0;
+}
+.home-container .welcome-home-section .text-contents .company-locaton .location-text {
+  margin-right: 5px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: var(--primary-white-Text-color);
+}
+.home-container .welcome-home-section .text-contents .company-locaton .shop-open-close-status {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home-container .welcome-home-section .text-contents .company-locaton .shop-open-close-status .open-close-status-icon {
+  color: var(--primary-good-alert-color);
+}
+.home-container .welcome-home-section .text-contents .company-locaton .shop-open-close-status span {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  color: var(--primary-good-alert-color);
+  margin-right: 3px;
+}
+.home-container .welcome-home-section .text-contents .offers-contact-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--primary-white-Text-color);
+  margin-top: 32px;
+}
+.home-container .welcome-home-section .text-contents .offers-contact-btn .offers-btn {
+  width: 119px;
+  height: 33px;
+  background: rgba(29, 29, 31, 0.8);
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 14px;
+}
+.home-container .welcome-home-section .text-contents .offers-contact-btn .contact-btn {
+  width: 119px;
+  height: 33px;
+  background: rgba(29, 29, 31, 0.8);
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */

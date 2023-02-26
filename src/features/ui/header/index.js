@@ -53,7 +53,7 @@ function NavBar() {
                         </div>
 
                         <div className="nav-links">
-                            <div className="animation-background "></div>
+                            {/* <div className="animation-background "></div> */}
 
                             <ul className={`${navbarDropdownAnimationKey}`} >
                                 {/* All navlinks are geted from  (navLinkNames.json file, inside setup/app-json-data-storage/ ) */}

@@ -3,7 +3,7 @@
     height: 51px;
     background: rgba(18, 18, 18, 0.708);
     backdrop-filter: blur(4.5px);
-    position: relative;
+    position: fixed;
     z-index: 15;
 
     .header-contents {
@@ -225,6 +225,18 @@
 
 
 // Media Quries start
+// @media screen and (max-width: 600px) {
+//     .header-box{
+//         .header-contents{
+//             .mobile-menu-bar{
+//                 .menubar:hover{
+//                 color: rgb(41, 207, 0);
+//                 }
+//             }
+//         }
+//     }
+// }
+
 @media screen and (max-width: 500px) {
     .header-box{
         .header-contents{
