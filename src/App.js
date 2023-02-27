@@ -11,7 +11,6 @@ import './App.css';
 import RouteFiles from './setup/app-route-manager/route/index'
 
 function App() {
-  console.log(window.innerWidth)
   return (
     <div className="App">
       <NavBar/>
