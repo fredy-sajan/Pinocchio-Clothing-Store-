@@ -4,11 +4,7 @@ import React from 'react'
 import './style-sheets/style.css'
 
 // import assets file from '/src/assets/svg/home-section'
-import vectorOneBackground from '../../../../../assets/svg/home-section/Vector-five.svg'
-import vectorTwoBackground from '../../../../../assets/svg/home-section/Vector-six.svg'
-import vectorThreeBackground from '../../../../../assets/svg/home-section/Vector-seven.svg'
-import vectorUnderDesign from '../../../../../assets/svg/home-section/under-design.svg'
-import overflowFix from '../../../../../assets/svg/home-section/overflow-fix.svg'
+import vectorTwoBackground from '../../../../../assets/svg/home-section/vector-six.svg'
 
 // import icon's
 import { MdOutlineLocationOn } from 'react-icons/md'
@@ -24,19 +20,28 @@ function WelcomeComponent() {
           <div className="background-vectors">
 
             <div className="vector-one">
-              <img src={vectorOneBackground} alt="" />
+              {/* This div is used for background of the welcome content section */}
             </div>
             <div className="vector-two">
               <img src={vectorTwoBackground} alt="" />
             </div>
             <div className="vector-three">
-              <img src={vectorThreeBackground} alt="" />
+              {/* This div used in front image, to get a darker background */}
             </div>
-            <div className="vector-under-design">
-              <img src={vectorUnderDesign} alt="" />
+
+
+            <div class="custom-shape-divider-top-1677526532">
+              <svg fill='red' data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M600,112.77C268.63,112.77,0,65.52,0,7.23V120H1200V7.23C1200,65.52,931.37,112.77,600,112.77Z" class="shape-fill"></path>
+              </svg>
             </div>
+
             <div className="overflow-fix">
-              <img src={overflowFix} alt="" />
+              <div class="custom-shape-divider-bottom-1677531999">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                  <path d="M0,0V7.23C0,65.52,268.63,112.77,600,112.77S1200,65.52,1200,7.23V0Z" class="shape-fill"></path>
+                </svg>
+              </div>
             </div>
           </div>
 
@@ -64,7 +69,7 @@ function WelcomeComponent() {
                 <h3>La, California, US .</h3>
               </div>
               <div className="shop-open-close-status">
-                <VscDebugStackframeDot className='open-close-status-icon'/>
+                <VscDebugStackframeDot className='open-close-status-icon' />
                 <span>Opened</span>
               </div>
             </div>
