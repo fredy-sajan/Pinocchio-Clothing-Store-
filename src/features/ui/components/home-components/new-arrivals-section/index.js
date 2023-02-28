@@ -31,6 +31,7 @@ function NewArrivalsComponent() {
 
                     <div className="card-container-new-arrivals">
                         <div className="cards">
+
                             <div className="card">
                                 <div className="image-card">
                                     <img src={women} alt="" />
@@ -39,11 +40,48 @@ function NewArrivalsComponent() {
                                     </div>
                                 </div>
                             </div>
+
                             <div className="card">
                                 <div className="image-card">
                                     <img src={men} alt="" />
                                     <div className="new-arrival-name">
                                         <h1>Men</h1>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="card extra-cards">
+                                <div className="image-card">
+                                    <img src={women} alt="" />
+                                    <div className="new-arrival-name">
+                                        <h1>Women</h1>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="card extra-cards">
+                                <div className="image-card">
+                                    <img src={women} alt="" />
+                                    <div className="new-arrival-name">
+                                        <h1>Women</h1>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="card extra-cards">
+                                <div className="image-card">
+                                    <img src={women} alt="" />
+                                    <div className="new-arrival-name">
+                                        <h1>Women</h1>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="card extra-cards">
+                                <div className="image-card">
+                                    <img src={women} alt="" />
+                                    <div className="new-arrival-name">
+                                        <h1>Women</h1>
                                     </div>
                                 </div>
                             </div>
