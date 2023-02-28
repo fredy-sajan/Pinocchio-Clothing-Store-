@@ -19,6 +19,21 @@ function PopularProductsComponent() {
                         <div className="card">
 
                         </div>
+                        <div className="card extra-cards">
+
+                        </div>
+                        <div className="card extra-cards">
+
+                        </div>
+                        <div className="card extra-cards">
+
+                        </div>
+                        <div className="card extra-cards left-moving-card">
+
+                        </div>
+                        {/* <div className="card extra-cards">
+                            
+                        </div> */}
                     </div>
                     <div className="next-previous">
                         <div className="next">
