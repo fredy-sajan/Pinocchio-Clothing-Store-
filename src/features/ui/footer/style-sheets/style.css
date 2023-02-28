@@ -209,4 +209,88 @@
   font-style: normal;
   font-weight: 400;
   font-size: 0.8125rem;
+}
+
+@media only screen and (min-width: 600px) {
+  .footer-container {
+    max-width: 1537px;
+    width: 100%;
+  }
+  .footer-container .footer-vector-contents {
+    max-width: 1537px;
+    width: 100%;
+  }
+  .footer-container .footer-vector-contents svg {
+    max-width: 1537px;
+    width: 100%;
+  }
+  .footer-container .footer-vector-contents .background-div-top-footer {
+    max-width: 1537px;
+    width: 100%;
+  }
+  .footer-container .footer-vector-contents .background-div-black-color-footer-bottom {
+    max-width: 1537px;
+    width: 100%;
+  }
+  .footer-container .footer-vector-contents .background-div-bottom-footer {
+    max-width: 1537px;
+    width: 100%;
+  }
+  .footer-container .footer-text-contents {
+    max-width: 1537px;
+    width: 100%;
+  }
+  .footer-container .footer-text-contents .welcome-head-text h1 {
+    font-size: 50px;
+  }
+  .footer-container .footer-text-contents .company-name h2 {
+    font-size: 20px;
+  }
+  .footer-container .under-svg {
+    max-width: 1537px;
+    width: 100%;
+  }
+  .footer-container .under-svg .custom-shape-divider-top-1677526532 {
+    max-width: 1537px;
+    width: 100%;
+  }
+  .footer-container .under-svg .custom-shape-divider-top-1677526532 svg {
+    max-width: 1537px;
+    width: 100%;
+  }
+  .footer-container .footer-links {
+    max-width: 1537px;
+    width: 100%;
+  }
+  .footer-container .footer-links .main-footer-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+  }
+  .footer-container .footer-links .main-footer-links .first-line ul li {
+    margin-left: 25px;
+  }
+  .footer-container .footer-links .main-footer-links .second-line {
+    margin: unset;
+  }
+  .footer-container .footer-links .main-footer-links .second-line ul li {
+    margin-left: 25px;
+  }
+  .footer-container .footer-links .second-main-footer-links {
+    margin-top: 15px;
+  }
+  .footer-container .footer-links .second-main-footer-links .second-important-links {
+    display: flex;
+    flex-direction: revert;
+  }
+  .footer-container .footer-links .second-main-footer-links .second-important-links .first-important-line ul li:nth-child(2) {
+    border-right: 1px solid var(--primary-white-Text-color);
+  }
+  .footer-container .footer-links .second-main-footer-links .second-important-links .second-important-line {
+    margin: unset;
+  }
+  .footer-container .footer-links .copyright {
+    margin-top: 65px;
+  }
 }/*# sourceMappingURL=style.css.map */
