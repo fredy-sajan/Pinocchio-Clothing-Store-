@@ -36,6 +36,9 @@
   margin-top: 25px;
   position: relative;
 }
+.review-container .review-cards .extra-card {
+  display: none;
+}
 .review-container .review-cards .card {
   max-width: 283px;
   width: 100%;
@@ -138,4 +141,24 @@
   justify-content: center;
   align-items: center;
   cursor: pointer;
+}
+
+@media only screen and (min-width: 600px) {
+  .review-container {
+    max-width: 1537px;
+    width: 100%;
+  }
+  .review-container .review-texthead h1 {
+    font-size: 45px;
+  }
+  .review-container .review-cards {
+    background: none;
+    justify-content: flex-end;
+  }
+  .review-container .review-cards .extra-card {
+    display: block;
+  }
+  .review-container .review-cards .card {
+    margin-left: 27px;
+  }
 }/*# sourceMappingURL=style.css.map */

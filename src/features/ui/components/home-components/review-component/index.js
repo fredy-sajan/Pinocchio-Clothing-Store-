@@ -20,6 +20,7 @@ function ReviewComponent() {
                     <h1>Testimonial's</h1>
                 </div>
                 <div className="review-cards">
+
                     <div className="card">
                         <div className="date-of-review">
                             <p>13 Day's ago</p>
@@ -50,6 +51,100 @@ function ReviewComponent() {
                             </p>
                         </div>
                     </div>
+
+                    <div className="card extra-card">
+                        <div className="date-of-review">
+                            <p>13 Day's ago</p>
+                        </div>
+                        <div className="profile-info">
+                            <div className="profile-picture">
+                                <img src={men} alt="" />
+                            </div>
+                            <div className="profile-name">
+                                <h2>Rihana</h2>
+                                <div className="profie-profesion">
+                                    <h3>singer, actress, and
+                                        businesswoman</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="rating-stars">
+                            <img src={ratingStarOne} alt="" />
+                        </div>
+                        <div className="review-text">
+                            <p>
+                                "I was recently at your store, what a delight to find
+                                you!Thank you, not only for your expertise but also for
+                                you encouragement in making more conscientious choices!"
+                                "I was recently at your store, what a delight to find
+                                you!Thank you, not only for your expertise but also for
+                                you encouragement in
+                            </p>
+                        </div>
+                    </div>
+
+                    <div className="card extra-card">
+                        <div className="date-of-review">
+                            <p>13 Day's ago</p>
+                        </div>
+                        <div className="profile-info">
+                            <div className="profile-picture">
+                                <img src={men} alt="" />
+                            </div>
+                            <div className="profile-name">
+                                <h2>Rihana</h2>
+                                <div className="profie-profesion">
+                                    <h3>singer, actress, and
+                                        businesswoman</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="rating-stars">
+                            <img src={ratingStarOne} alt="" />
+                        </div>
+                        <div className="review-text">
+                            <p>
+                                "I was recently at your store, what a delight to find
+                                you!Thank you, not only for your expertise but also for
+                                you encouragement in making more conscientious choices!"
+                                "I was recently at your store, what a delight to find
+                                you!Thank you, not only for your expertise but also for
+                                you encouragement in
+                            </p>
+                        </div>
+                    </div>
+
+                    <div className="card extra-card">
+                        <div className="date-of-review">
+                            <p>13 Day's ago</p>
+                        </div>
+                        <div className="profile-info">
+                            <div className="profile-picture">
+                                <img src={men} alt="" />
+                            </div>
+                            <div className="profile-name">
+                                <h2>Rihana</h2>
+                                <div className="profie-profesion">
+                                    <h3>singer, actress, and
+                                        businesswoman</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="rating-stars">
+                            <img src={ratingStarOne} alt="" />
+                        </div>
+                        <div className="review-text">
+                            <p>
+                                "I was recently at your store, what a delight to find
+                                you!Thank you, not only for your expertise but also for
+                                you encouragement in making more conscientious choices!"
+                                "I was recently at your store, what a delight to find
+                                you!Thank you, not only for your expertise but also for
+                                you encouragement in
+                            </p>
+                        </div>
+                    </div>
+
                 </div>
                 <div className="next-previous">
                     <div className="next">
