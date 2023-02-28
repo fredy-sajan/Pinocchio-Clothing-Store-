@@ -43,6 +43,10 @@
                 z-index: 10;
             }
 
+            .vector-two-pc-screen {
+                display: none;
+            }
+
             .vector-three {
                 position: absolute;
                 z-index: 11;
@@ -64,17 +68,17 @@
                 overflow: hidden;
                 line-height: 0;
                 transform: rotate(180deg);
-            }
-            
-            .custom-shape-divider-top-1677526532 svg {
-                position: relative;
-                display: block;
-                width: calc(100% + 1.3px);
-                height: 63px;
-            }
-            
-            .custom-shape-divider-top-1677526532 .shape-fill {
-                fill: #000000;
+
+                svg {
+                    position: relative;
+                    display: block;
+                    width: calc(100% + 1.3px);
+                    height: 63px;
+                }
+
+                .shape-fill {
+                    fill: #000000;
+                }
             }
 
             .overflow-fix {
@@ -82,7 +86,7 @@
                 top: 0;
                 z-index: 12;
                 margin-top: 559px;
-                max-width: 600px;
+                max-width: 1440px;
                 width: 100%;
 
                 .custom-shape-divider-bottom-1677531999 {
@@ -94,14 +98,14 @@
                     line-height: 0;
                     transform: rotate(180deg);
                 }
-                
+
                 .custom-shape-divider-bottom-1677531999 svg {
                     position: relative;
                     display: block;
                     width: calc(100% + 1.3px);
                     height: 60px;
                 }
-                
+
                 .custom-shape-divider-bottom-1677531999 .shape-fill {
                     fill: var(--primary-white-background);
                 }
@@ -224,22 +228,112 @@
 }
 
 
+// PC Screen Start
 // Media Queris start
 
-// @media only screen and (max-width: 500px) {
-//     .home-container {
-//         .welcome-home-section {
-//             .text-contents {
-//                 .company-locaton {
-//                     .shop-open-close-status {
+@media only screen and (min-width: 600px) {
+    .home-container {
+        height: 1097px;
 
-//                         // Responsive added for location section status of shop ( opened/closed )
-//                         span {
+        .welcome-home-section {
+            max-width: 1537px;
+            width: 100%;
 
-//                         }
-//                     }
-//                 }
-//             }
-//         }
-//     }
-// }
+            .background-vectors {
+                max-width: 1440px;
+                width: 100%;
+
+                .vector-one {
+                    max-width: 1537px;
+                    width: 100%;
+                    height: 590px;
+                }
+
+                .vector-two {
+                    display: none;
+                }
+
+                .vector-two-pc-screen {
+                    display: block;
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                    z-index: 10;
+                    height: 590px;
+                    overflow: hidden;
+                }
+
+                .vector-three {
+                    max-width: 1537px;
+                    width: 100%;
+                    height: 590px;
+                    background: rgba(0, 0, 0, 0.31);
+                    backdrop-filter: blur(0.5px);
+                }
+
+                .custom-shape-divider-top-1677526532 {
+                    margin-top: 589px;
+                }
+
+                .overflow-fix {
+                    display: none;
+                }
+            }
+
+            .text-contents {
+                right: 300px;
+
+                .welcome-head-text {
+
+                    h1 {
+                        font-size: 83px;
+                    }
+                }
+
+                .company-name {
+
+                    h2 {
+                        font-size: 24px;
+                    }
+                }
+
+                .company-locaton {
+                    margin-top: 33px;
+
+                    .location-text {
+
+                        h1 {
+                            font-size: 13px;
+                        }
+                    }
+
+                    .shop-open-close-status {
+
+                        span {
+                            font-size: 11px;
+                        }
+                    }
+                }
+
+                .offers-contact-btn {
+
+                    .offers-btn {
+                        width: 123px;
+
+                        span{
+                            font-size: 16px;
+                        }
+                    }
+
+                    .contact-btn{
+                        width: 123px;
+
+                        span{
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

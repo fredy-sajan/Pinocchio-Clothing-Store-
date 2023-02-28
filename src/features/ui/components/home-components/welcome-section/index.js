@@ -4,7 +4,9 @@ import React from 'react'
 import './style-sheets/style.css'
 
 // import assets file from '/src/assets/svg/home-section'
-import vectorTwoBackground from '../../../../../assets/svg/home-section/vector-six.svg'
+import vectorTwoBackground from '../../../../../assets/svg/home-section/Vector-six.svg'
+import vectorTwoBackgroundPcScreen from '../../../../../assets/svg/home-section/Vector-six-pc-screen.svg'
+
 
 // import icon's
 import { MdOutlineLocationOn } from 'react-icons/md'
@@ -24,6 +26,9 @@ function WelcomeComponent() {
             </div>
             <div className="vector-two">
               <img src={vectorTwoBackground} alt="" />
+            </div>
+            <div className="vector-two-pc-screen">
+              <img src={vectorTwoBackgroundPcScreen} alt="" />
             </div>
             <div className="vector-three">
               {/* This div used in front image, to get a darker background */}
