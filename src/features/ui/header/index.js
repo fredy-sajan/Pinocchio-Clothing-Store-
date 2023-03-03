@@ -16,6 +16,7 @@ function NavBar() {
 
     // Mobile menu bar open function ( all animation's done by this class )
     let dropDownMenu = () => {
+
         setNavbarDropdownAnimationKey((previousValue) => {
             if (previousValue === "dropdown-unactive") {
                 return "dropdown-active"
@@ -24,6 +25,7 @@ function NavBar() {
                 return "dropdown-unactive"
             }
         })
+        
     } // dropDownMenu function end
 
 

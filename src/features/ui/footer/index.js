@@ -2,7 +2,7 @@ import React from 'react'
 import './style-sheets/style.css'
 
 // assets import
-import rectangleBoxDesign from '../../../assets/svg/footer/rectangle-design-footer.svg'
+// import rectangleBoxDesign from '../../../assets/svg/footer/rectangle-design-footer.svg'
 // import underVector from '../../../assets/svg/footer/wave-haikei.svg'
 
 

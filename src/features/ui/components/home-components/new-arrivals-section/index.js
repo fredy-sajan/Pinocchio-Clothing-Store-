@@ -7,6 +7,14 @@ import nextIcon from '../../../../../assets/svg/home-section/new-arrivals/previo
 // images
 import men from '../../../../../assets/images/home/new-arrivals-section/men.jpg'
 import women from '../../../../../assets/images/home/new-arrivals-section/women.jpg'
+import watch from '../../../../../assets/images/home/new-arrivals-section/watch.jpg'
+import shoe from '../../../../../assets/images/home/new-arrivals-section/shoe.jpg'
+import perfume from '../../../../../assets/images/home/new-arrivals-section/perfume.jpg'
+import glass from '../../../../../assets/images/home/new-arrivals-section/glass.jpg'
+
+
+
+
 
 
 function NewArrivalsComponent() {
@@ -34,9 +42,9 @@ function NewArrivalsComponent() {
 
                             <div className="card">
                                 <div className="image-card">
-                                    <img src={women} alt="" />
+                                    <img src={watch} alt="" />
                                     <div className="new-arrival-name">
-                                        <h1>Women</h1>
+                                        <h1>Watch</h1>
                                     </div>
                                 </div>
                             </div>
@@ -52,9 +60,18 @@ function NewArrivalsComponent() {
 
                             <div className="card extra-cards">
                                 <div className="image-card">
-                                    <img src={women} alt="" />
+                                    <img src={shoe} alt="" />
                                     <div className="new-arrival-name">
-                                        <h1>Women</h1>
+                                        <h1>Shoe</h1>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="card extra-cards">
+                                <div className="image-card">
+                                    <img src={perfume} alt="" />
+                                    <div className="new-arrival-name">
+                                        <h1>Perfume</h1>
                                     </div>
                                 </div>
                             </div>
@@ -70,18 +87,9 @@ function NewArrivalsComponent() {
 
                             <div className="card extra-cards">
                                 <div className="image-card">
-                                    <img src={women} alt="" />
+                                    <img src={glass} alt="" />
                                     <div className="new-arrival-name">
-                                        <h1>Women</h1>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="card extra-cards">
-                                <div className="image-card">
-                                    <img src={women} alt="" />
-                                    <div className="new-arrival-name">
-                                        <h1>Women</h1>
+                                        <h1>Glass</h1>
                                     </div>
                                 </div>
                             </div>

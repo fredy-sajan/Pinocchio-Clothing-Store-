@@ -1,11 +1,11 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 
 // CSS import
 import './style-sheets/style.css'
 
 // import assets file from '/src/assets/svg/home-section'
-import vectorTwoBackground from '../../../../../assets/svg/home-section/Vector-six.svg'
-import vectorTwoBackgroundPcScreen from '../../../../../assets/svg/home-section/Vector-six-pc-screen.svg'
+import vectorTwoBackground from '../../../../../assets/svg/home-section/Vector-six.jpg'
+import vectorTwoBackgroundPcScreen from '../../../../../assets/svg/home-section/Vector-six-pc-screen.jpg'
 
 
 // import icon's
@@ -13,6 +13,28 @@ import { MdOutlineLocationOn } from 'react-icons/md'
 import { VscDebugStackframeDot } from 'react-icons/vsc'
 
 function WelcomeComponent() {
+  const [openCloseState, setOpenCloseState] = useState('')
+
+  let date = new Date()
+  let time = '23'
+
+  useEffect(() => openCloseFunction)
+
+  let openCloseFunction = () => {
+    if (time > 9 && time < 21) {
+      setOpenCloseState("Opened")
+    } else {
+      setOpenCloseState("Closed")
+    }
+
+  }
+
+
+  console.log(openCloseState)
+
+
+  // window.addEventListener('load',openCloseFunction)
+
   return (
     <>
       <div className="home-container">
